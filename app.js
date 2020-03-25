@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+const multer = require("multer");
+
+// let upload = multer(); //don't upload files anywhere, just keep them in memory temporarily
 
 const cors = require("cors");
 app.use(cors());
